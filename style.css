@@ -1,0 +1,125 @@
+body{background-color: rgb(241, 235, 221);}
+
+h1{
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 5em;
+}
+
+img {
+    margin-top: 50px;
+    width: 200px;
+    height: auto;
+}
+
+button{
+    background-color: rgb(205, 52, 128);
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    font-size: large;
+    justify-content: center;
+    margin-top: 4em;
+   
+}
+
+/* Hulp om elementen te centreren: https://css-tricks.com/snippets/css/a-guide-to-flexbox/*/
+#startijskoffie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+#koemelk{
+   margin-left: 2em;
+
+}
+
+#havermelk{
+    margin-left: 1em;
+}
+
+img #pijlRechts{
+    width: 100px;
+    height:auto;
+}
+
+#Vanille{
+    margin-top: 50px;
+    width: 150px;
+    height: auto;
+    justify-content: center;
+}
+
+#Karamel{
+    margin-top: 50px;
+    width: 150px;
+    height: auto;
+    justify-content: center;
+    margin-left: 3em;
+}
+
+
+ #ijskoffieklaar{
+    margin-top: 50px;
+    width: 400px;
+    height: auto;
+    
+}
+
+.stap1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.stap2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.klaar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+#opnieuwknop{
+    margin-left: 3em;
+}
+
+
+
+
+
+#verderknop1{
+    margin-left: 4em;
+}
+
+#verderknop2{
+    margin-left: 4em;
+}
+
+.selecteer-rand {
+    border: 7px solid #1ea3dd;
+    border-radius: 3em;
+    padding: 20px;
+}
+
+/* altijd onderaan houden*/
+.hidden {
+    display: none;
+}

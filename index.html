@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eindopdracht Inleidend Programmeren</title>
+    <!--https://www.w3schools.com/html/html_favicon.asp-->
+    <link rel="icon" type="image/x-icon" href="images/ijskoffie.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+ <!--audios van https://pixabay.com/sound-effects/search/slurp%20sound/ en https://pixabay.com/sound-effects/search/ice%20cubes%20in%20water/ -->  
+<div id="startijskoffie">
+    <h1 class="titel">Maak je eigen ijskoffie </h1>
+    <p>kies order</p>
+    <img id="koffie" src="images/ijskoffie.png" alt="ijskoffie">
+    <audio id="geluid1" src="audio /ice-cubes-in-water-104820.mp3"></audio>
+    <button>Start</button>  
+</div>
+
+<div id="stap1" class="stap1 hidden">
+    <h1>Kies soort melk</h1>
+    <img id="havermelk" src="images/havermelk.png" alt="havermelk">
+    <img id="koemelk" src="images/koemelk.png" alt="koemelk">
+    <button id="verderknop1">Verder</button>
+</div>
+ 
+<div id="stap2" class="stap2 hidden">
+    <h1>Kies soort siroop</h1>
+    <img id="Vanille" src="images/siroopvanille.png" alt="vanillesmaak">
+    <img id="Karamel" src="images/siroopkaramel.png" alt="karamelsmaak">
+    <button id="verderknop2">Verder</button>
+</div>
+
+<div id="klaar" class="klaar hidden">
+    <h1>Enjoy!</h1>
+    <img id="ijskoffieklaar" src="images/ijskoffieklaar.png" alt="ijskoffie is klaar">
+    <audio id="geluid2" src="audio /straw-slurp-7066.mp3"></audio>
+    <button id="opnieuwknop">Begin opnieuw</button>
+</div>
+
+</body>
+</html>
