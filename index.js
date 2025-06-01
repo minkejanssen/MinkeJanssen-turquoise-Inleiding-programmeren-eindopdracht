@@ -17,10 +17,11 @@ const afbeeldingsiroopkaramel= document.getElementById("Karamel")
 const geluid1 = document.getElementById("geluid1")
 const geluid2 = document.getElementById("geluid2")
 
-// DOM manipulatie voor dee titel van de pagina //
+// DOM manipulatie voor de titel van de pagina //
 const h1 = document.querySelector("h1")
  h1.style.color = "darkgreen";
 
+ 
 let order = document.querySelector("p");
 
 
